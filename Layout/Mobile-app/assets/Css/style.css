@@ -1,0 +1,279 @@
+
+.hero-sec{
+    
+   height: 680px;
+   
+    padding: 45px 0 65px ;
+    overflow: hidden;
+   background: linear-gradient(rgb(213, 26, 19,0.6),rgb(218, 51, 45,0.6)),url("../Img/bg.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+.navbar ul li a{
+    line-height: 20px;
+    padding: 10px;
+    height: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+
+    
+
+}
+.navbar ul li a::before{
+    content: '';
+    width: 0;
+    position: absolute;
+    height: 3px;
+   background-color:  white;
+    transform: all .7s linear;
+    left: 0;
+    top: 0;
+
+}
+.navbar ul li a:hover::before{
+    width: 100%;
+    
+}
+.hero-sec header{
+    margin-bottom: 145px;
+}
+.choco h1{
+    font-size: 52px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+
+}
+.choco p{
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 50px;
+
+}
+.choco a{
+    padding:15px 50px 15px 35px;
+     background-color: #282828;
+    
+     border-radius: 45px;
+     color: white;
+     
+
+     
+}
+.choco a i{
+    font-size: 45px;
+    margin-right:25px;
+    vertical-align: middle;
+}
+.hero-sec .mob{
+    position: relative;
+}
+.hero-sec .mob img{
+    position: absolute;
+    right: 10px;
+    top: -35px;
+   
+}
+
+/* <feature section css> */
+.app-feature{
+    padding:80px 0 200px;
+    
+}
+.app-feature h1{
+    font-family: serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #868686;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.app-feature p{
+    font-size: 22px;
+    font-family: serif;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.feature-info figure{
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 30px ;
+}
+.feature-info figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    
+}
+.feature-info h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-left:130px;
+}
+.feature-info p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #626262;
+}
+
+ /* fruit */
+
+.fruit{
+    padding: 195px 0 110px;
+    background:url(../Img/joker.png);
+    height:100vh ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #d8dedc;
+    background-attachment: fixed;
+
+}
+.fruitsinfo h1{
+    font-size:52px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.fruitsinfo p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #585858;
+    margin-bottom: 70px;
+    width: 60%;
+}
+.fruitsinfo a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    padding: 18px 20px;
+    background-color: red;
+    border-radius: 45px;
+    box-shadow: brown;
+}
+
+/* Footer */
+.footerSection{
+    padding: 120px 0 145px;
+    background-color: #2e2e38;
+}
+.footerSection .footer-logo{
+    margin-bottom: 60px;
+
+
+}
+.footer-list h4{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.footer-list .box{
+    height: 43px;
+    width: 55px;
+    background-color: #e74c3c; 
+}
+.footer-list ul li{
+    display: table;
+    clear: both;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.footer-list ul li div{
+    float: left;
+}
+.footer-list .boxInfo{
+    margin-left: 15px;
+    padding-top: 6px;
+}
+.footer-list .boxInfo p{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+}
+.suits ul li{
+    color:white;
+    font-size:14px ;
+    font-weight: bold;
+    padding-top: 6px;
+}
+.suits ul li p{
+    font-size:11px;
+    font-weight: 400;
+    padding-top: 10px;
+   
+}
+.suits ul .p-info{
+    font-size: 15px;
+    font-weight: 400px;
+    padding-top: 14px;
+    width: 70%;
+}
+.footer-list .about{
+    font-size:15px ;
+    font-weight: 400;
+    color: white;
+    font-style: italic;
+    width: 80%;
+}
+.footer-foot p, .footer-foot .social-icons{
+    display: inline-block;
+
+} 
+footer{
+    padding: 40px 0px;
+    background-color: #d7dedc;
+}
+.footers{
+    width: 1100px;
+    height: 10px;
+    margin: 0 auto;
+
+}
+.footer-foot p{
+    color:#2e2e38 ;
+    font-size: 26px;
+    font-weight: 400;
+}
+.footer-foot p span{
+    margin: 0 20px;
+    font-weight: bold;
+}
+.footer-foot p a{
+    color: #2e2e38;
+}
+.social-icons a{
+    width: 30px;
+    height: 20px;
+    background-color: #4561a0;
+   padding: 6px;
+   border-radius: 15px;
+   color: #fff;
+   margin-right: 40px;
+}
+.social-icons a:first-child{
+    margin-left: 20px;
+}
+
+

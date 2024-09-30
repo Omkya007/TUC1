@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 400px;
+    width: 300px;
+    margin:0 auto;
+    background: linear-gradient(to top,red 5%,green 15%,blue 20%);
+    background: linear-gradient(to left,red 5%,green 15%,blue 20%);
+    background: linear-gradient(45deg,red 5%,green 15%,blue 20%);
+    background: radial-gradient(red,green,gold);
+    background: radial-gradient(circle,red 20%,green 25%,gold 30%);
+    
+    border: 2px solid;
+    
+
+}

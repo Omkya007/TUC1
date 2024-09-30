@@ -1,0 +1,12 @@
+.Container{
+    background-color: aquamarine;
+    margin:auto;
+    padding: 20px;
+    border: 2px dotted  beige;
+    opacity: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    overflow:auto;
+    height: 500px;
+    width: 500px;
+    
+}

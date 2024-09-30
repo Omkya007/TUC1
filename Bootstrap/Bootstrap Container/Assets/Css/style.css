@@ -1,0 +1,47 @@
+.navbar.mainNavbar{
+    background-color: #000 !important;
+    padding: 0px;
+}
+.navbar-light.mainNavbar .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light.mainNavbar .navbar-nav .nav-link:focus, 
+.navbar-light.mainNavbar .navbar-nav .nav-link:hover {
+    
+    background-color: orange;
+}
+.navbar-light.mainNavbar .navbar-brand{
+    color: rgba(0,0,0,.9);
+    padding: 12px 0;
+}
+.navbar-light.mainNavbar .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    height: 70px;
+    line-height: 70px;
+    padding: 0 15px;
+}
+.mainNavbar .dropdown-menu{
+    left: -50%;
+    background-color: #000;
+}
+
+.mainNavbar .dropdown-menu .dropdown-item:hover{
+    background-color: orange;
+    color: #fff;
+
+}
+.navbar-light.mainNavbar .navbar-toggler{
+    color: white;
+}
+
+@media all and(max-width:991px) {
+
+    .navbar-light.mainNavbar .navbar-nav .nav-link {
+        color: rgb(255, 255, 255);
+        height: 50px;
+        line-height: 34px;
+        padding: 8px;
+      
+    }
+    
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Form</title>
+</head>
+<body>
+    <section>
+        <form>
+            <h1>Job Application</h1>
+            <div class="form-group">
+                <label for="name" >Name:-</label>
+                <input type="text" id="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="Sname">Sname:-</label>
+                <input type="text" id="Sname" placeholder="SName">
+            </div>
+            <div class="form-group">
+                <label for="Email" >Email:-</label>
+                <input type="email" id="Email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="Password" >Password:-</label>
+                <input type="password" id="password" placeholder="password">
+            </div>
+            <div class="form-group">
+                <label for="Address" >Address:-</label>
+                <input type="text" id="Address" placeholder="Address">
+            </div>
+            <div class="form-group">
+                <label for="City" >City:-</label>
+                <select>
+                    <option value="">select</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Tiruchipalli">Tiruchipalli</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="State" >State:-</label>
+                <select >
+                    <option value="">select</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="TamilNadu">TamilNadu</option>
+                    <option value="AP">Ap</option>
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="gender" style="padding: 5px; width: 1150px;">
+                <label for="Gender" >Gender:-</label>
+                <label for="Gender" >Male</label>
+                <input type="radio" style="padding: 10px;width: 15px;">
+                <label for="Gender" >Female</label>
+                <input type="radio" style="padding: 10px;width: 15px;">
+            </div>
+            </div>
+           <div class="form-group">
+                <label for="DOB" >Date Of Birth:-</label>
+                <input type="date" id="DOB" placeholder="DOB">
+            </div> 
+            <div class="form-group">
+                <label for="Profession">Profession:-</label>
+                <input type="text" id="Profession" placeholder="Profession">
+            </div>
+            <div class="form-group">
+                <label for="Work Exp">Work Exp:-</label>
+                <input type="number" id="Work Exp" placeholder="Work Experience">
+            </div>
+            <div class="form-group">
+                <label for="Work Experience">Languages Known:-</label>
+            <ol>
+                <li>
+                <label for="">Html</label>
+                    <input type="checkbox" id="Html" placeholder="Html"></li>
+                <li><label for="">CSS</label>
+                    <input type="checkbox" id="CSS" placeholder="CSS"></li>
+               <li><label for="">JAVASCRIPT</label>
+                   <input type="checkbox" id="JAVASCRIPT" placeholder="JAVASCRIPT"></li>
+               <li><label for="">ANGULAR</label>
+                   <input type="checkbox" id="ANGULAR" placeholder="ANGULAR"></li> 
+                <li><label for="">REACT</label>
+                    <input type="checkbox" id="REACT" placeholder="REACT"></li>
+            </ol>
+            
+            </div>
+            <div class="form-group">
+                <label for="Upload Resume">Upload Resume:-</label>
+                <input type="file" id="Upload Resume" placeholder="Upload Resume">
+            </div>
+            <div class="form-group">
+                <input type="button" value="Submit">
+                <input type="button" value="Reset">
+
+            </div>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+
+}
+.box2{
+    height: 800px;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    position: relative;
+}
+strong{
+    background-color: chartreuse;
+    padding:7px 15px;
+    right: -10px;
+    bottom: -10px;
+    height: 30px;
+    top: 10px;
+    position: absolute;
+    display: inline-block;
+
+}
+strong::after{
+    content: '';
+    background-color: yellow;
+    top: 20px;
+    right:3px;
+    height: 20px;
+    width: 20px;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: -1;
+
+
+}

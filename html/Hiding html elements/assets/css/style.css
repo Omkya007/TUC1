@@ -1,0 +1,27 @@
+.box1{
+    background-color: aqua;
+    height: 150px;
+    width: 100px;
+    opacity: 100%;
+    border: 2px solid olive;
+    display: inline;
+
+}
+.box2{
+    background-color: aquamarine;
+    height: 140px;
+    width: 100px;
+    border: 2px dotted darkcyan;
+    /* display: none; */
+    /* visibility: inherit;
+    opacity: 45%;
+     */
+     display: block;
+     opacity: 50%;
+
+}
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}

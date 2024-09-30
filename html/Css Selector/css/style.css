@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/* .selector{
+    background-color:chartreuse;
+    margin: 20px;
+    padding: 0 auto;
+    border: 2px solid wheat;
+} */
+/* Decendant selector */
+/* .selector p{
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* span{
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: aqua;
+
+}
+#sp{
+    background-color: aquamarine;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    
+    
+}  */
+/* Direct Child  */
+/* #pass span{background-color:wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-style: italic;
+
+} */
+
+/* Adjacent Sibling Selector */
+/* .selector+p{
+    background-color: aqua;
+    border-color: azure;
+    box-sizing: border-box;
+    border:2px salmon solid;
+    margin: auto;
+} */
+/* General Sibling Selector */
+div~p{
+    background-color: coral;
+    border: 2px solid wheat;
+    padding: 20px;
+}
+

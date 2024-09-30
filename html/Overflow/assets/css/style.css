@@ -1,0 +1,11 @@
+.one{
+    height: 500px;
+    width: 500px;
+    border: 2px solid rgb(222, 222, 9);
+    background-color: aqua;
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow-wrap: normal; 
+    
+}

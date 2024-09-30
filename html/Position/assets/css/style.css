@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    background-color: aquamarine;
+    color: gold;
+    padding: 20px;
+    margin: 20px;
+}
+/* .info{
+    background-color: azure;
+    color: yellowgreen;
+    position: fixed;
+    top: 0;
+} */
+.info2{
+    background-color: antiquewhite;
+    color: rgb(195, 124, 37);
+    position: sticky;
+    top: 0;
+    margin: 0;
+}
+.end{
+    background-color: aqua;
+    color: blueviolet;
+    position: fixed;
+    bottom: 0;
+}
+.list p:last-child{
+    margin-top: 114px;
+}

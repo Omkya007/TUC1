@@ -1,0 +1,17 @@
+:root{
+    --primary-color:#032541;
+    --secondary-color:#373b69;
+    --color-white:#fff;
+    --color-dark:#000;
+}
+
+body{
+    background-color: var(--secondary-color);
+    
+}
+.header{
+   background-color: var(--color-white);
+   height: 40px;
+
+}
+

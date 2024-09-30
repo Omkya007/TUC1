@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.list{
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    border: 2px solid;
+    background-color: yellow;
+    text-align: center;
+    
+}
+.list a{
+    text-decoration: none;
+    
+}
+.list p:active{
+    background-color: antiquewhite;
+}
+.list ::first-line{
+    font-size: large;
+}
+.list ::first-letter{
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.list ::selection{
+    background-color: greenyellow;
+}
+/* .list ::after{
+    content: "Hey";
+    color: tomato;
+}
+.list ::before{
+    content: "Hey";
+    color: springgreen;
+} */
+
+
+.list a::after{
+    content: '\f063';
+    font-family: 'FontAwesome';
+    color: aquamarine;
+}
+    
+
+.list a:hover::after{
+    content: '\f062';
+    font-family: 'FontAwesome';
+   
+    color: aquamarine;
+}
+

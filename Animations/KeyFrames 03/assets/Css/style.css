@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 800px;
+    width: 500px;
+    border: 2px solid;
+    margin: 50px auto;
+}
+.box1{
+    height: 20px;
+    width: 200px;
+    border: 2px solid;
+    background-color: aqua;
+    text-align: center;
+    margin-left: 320px;
+    margin-top: 50px;
+    transform: rotate(38deg);
+    z-index: -1;
+}

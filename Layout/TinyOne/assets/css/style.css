@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: "Poppins", sans-serif;
+}
+a:link,a:visited{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header{
+    margin-bottom: 70px;
+}
+/* utility css */
+
+.text-center{
+    text-align: center;
+    
+}
+.container{
+    margin: 0 auto;
+    
+    width: 1180px;
+}
+.row{
+    display: table;
+    clear: both;
+    width: 100%;
+}
+/* header section css */
+.heroImg{
+    background-color: #fcdb00;
+    padding: 60px 0 70px;
+}
+
+[class^="col-"]{
+    float: left;
+    padding: 0 15px;
+
+}
+.col-3{
+    width: calc(100% *3/12);
+}
+.col-4{
+    width: calc(100% *4/12);
+}
+.col-5{
+    width: calc(100% *5/12);
+}
+.col-9{
+    width: calc(100% *9/12);
+}
+.col-10{
+    width: calc(100% *10/12);
+}
+.offset-1{
+    margin-left: calc(100% *1/12);
+}
+.offset-2{
+    margin-left: calc(100% *2/12);
+}
+.offset-4{
+    margin-left: calc(100% *4/12);
+}
+.pri-head{
+    font-size: 32px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 24px;
+}
+.sec-head{
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.para{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.icons li{
+    display: inline-block;
+    margin-right: 40px;
+    
+}
+.icons li a{
+    color: #010101;
+
+}
+.icons  li a i{
+    font-size: 40px;
+    display: inline-block;
+}
+.icons  li a i:hover{
+    transform: rotate(360deg) scale(1.5);
+    transition: all .5s;
+}
+    
+
+
+.navbar ul li {
+    display: inline-block;
+    text-align: right;
+     
+}
+.navbar{
+    text-align: right;
+}
+.navbar ul li{
+    margin: 0  15px;
+    display: inline-block;
+    
+}
+.navbar ul li a{
+    height: 50.2px;
+    line-height: 50.2px;
+    padding:0 15px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+}
+.navbar ul li a::before{
+    content: '';
+    width: 0%;
+    height: 2px;
+    border-bottom: 4px;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+   
+}
+.navbar ul li a:hover::before{
+    width: 100%;
+    transition: all .7s ;
+    
+}
+.inspiration-info{
+    padding-top: 70px;
+}
+/* feature css */
+.feature{
+    padding-bottom: 70px;
+    padding-top: 115px;
+}
+.feature .sec-head{
+    margin-bottom: 90px;
+    color: #898989;
+}
+.thumbnail h4{
+    font-size: 22px;
+    color: #010101;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.thumbnail p{
+    color: #898989;
+    font-size: 16px;
+}
+.thumbnail{
+    margin-bottom: 90px;
+}
+/* footer css */
+.footer{
+    background-color: #010101;
+    padding: 108px 0 122px;
+}
+.keyInfo .pri-head,.sec-head{
+    color: #fcdb00;
+}
+.keyInfo .sec-head{
+    margin-bottom: 35px;
+}
+#email{
+    width: 600px;
+    height: 50px;
+    margin-bottom: 72px;
+    outline: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+#email::placeholder{
+   color: #898989;
+ 
+}
+.submit{
+    width: 198px;
+    height:50px ;
+    margin-left: 18px;
+    border-radius: 10px;
+    background-color: yellow;
+    color:#010101;
+}
+.submit:hover,
+.submit:active,
+.submit:focus{
+    background-color: #010101;
+    color:#fcdb00;
+    transition: all .7s;
+    box-shadow: 2px 5px;
+
+}
+.keyInfo .icons li a{
+     color: #fcdb00;
+     
+}
+.keyInfo .icons{
+    margin-bottom: 120px;
+}
+
+.keyInfo li a{
+    color: white;
+}
+.keyInfo li {
+    color: white;
+}

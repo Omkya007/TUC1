@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box2{
+    height: 800px;
+    width: 300px;
+    margin: 20px;
+    border: 2px solid;
+    background-color: aquamarine;
+    position: relative;
+}
+strong{
+    background-color: gold;
+    padding: 7px 15px;
+    
+    display: inline-block;
+    font-weight: 800;
+    font-size: medium;
+    position: absolute;
+    top: 12px;
+    left: -15px;
+
+
+
+}
+strong::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: rgb(204, 180, 46);
+    position: absolute;
+    top: 23px;
+    left: 4px;
+    transform: rotate(45deg);
+    z-index: -1;
+}

@@ -1,0 +1,58 @@
+:root{
+    --primary-color:#032541;
+    --secondary-color:#373b69;
+    --color-white:#fff;
+    --color-dark:#000;
+}
+
+body{
+    background-color: var(--secondary-color);
+    color:var(--color-white)
+}
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.tab-heading{
+    list-style: none;
+    display: flex;
+    border: 1px solid var(--color-white);
+    
+}
+.tab-heading li{
+    flex-grow: 1;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px 0;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+
+}
+
+.tab-panel{
+    padding: 10px;
+    border: 1px solid var(--color-white);
+   
+}
+.tab-content{
+    display: none;
+}
+.tab-content.active{
+    display: block;
+}
+
+.tab-heading li.active,
+.tab-heading li:active,
+.tab-heading li:hover,
+.tab-heading li:focus{
+
+    background-color:var(--color-white) ;
+    color: var(--secondary-color);
+
+}
+
+

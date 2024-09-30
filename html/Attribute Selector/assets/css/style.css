@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/* a[href]{
+    background-color: aqua;
+} */
+a[href="https://www.google.com/"]{
+    background-color: antiquewhite;
+}
+a[href^="https://www."]{
+    background-color: aquamarine;
+
+}
+a[href$=".com/"]{
+    background-color: bisque;
+    display:block;
+    padding: 20px;
+    
+}
+a[href*=".com/"]{
+    background-color:chocolate;
+}
+a[target~=_blank]{
+    background-color: yellow;
+
+}
+a[alt|='Dog-Img']{
+    background-color: yellow;
+
+}
+img{
+    background-size: cover;
+    box-sizing: content-box;
+    size: 50%;
+    width: 50%;
+    height: 50%;
+}
+img[alt|='Dog-Img']{
+    background-color: aquamarine;
+}

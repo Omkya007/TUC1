@@ -1,0 +1,28 @@
+/* .root{
+    --primary-color:#032541;
+    --secondary-color:#373b69;
+    --color-white:#fff;
+    --color-dark:#000;
+} */
+
+body{
+    background-color: rebeccapurple;
+}
+
+.all>.box{
+    height: 250px;
+    border: 2px solid chartreuse;
+    margin-bottom: 20px;
+}
+.pink>.box{
+    background-color:pink;
+}
+.orange>.box{
+    background-color: orange;
+}
+.yellow>.box{
+    background-color:yellow;
+}
+.red >.box{
+    background-color:red;
+}

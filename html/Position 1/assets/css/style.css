@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    background-color: antiquewhite;
+    width: 700px;
+    margin: 20px;
+    border: 2px solid;
+    height: 500px;
+    position: relative;
+}
+.box2{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    
+    border: 2px solid;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}

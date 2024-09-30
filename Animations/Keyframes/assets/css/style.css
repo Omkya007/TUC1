@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    border: 20px solid;
+    margin: 0 auto;
+    
+    background-color: aqua;
+    position: relative;
+   
+   
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    position: absolute;
+    background-color: wheat;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation-name: boxmove1;
+   animation-duration: 0.7s;
+   animation-timing-function: linear;
+   
+}
+@keyframes boxmove1{
+    0%{
+        border-top-left-radius: 20px;
+        background-color: beige;
+    }
+    50%{
+        border-top-right-radius: 40px;
+       background-color: black
+    }
+    75%{
+        border-bottom-left-radius: 60px;
+        background-color: yellow;
+    }
+    100%{
+        border-bottom-right-radius: 80px;
+        background-color: violet;
+    }
+}

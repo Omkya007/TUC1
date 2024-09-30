@@ -1,0 +1,6 @@
+.Card h3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 40px;
+    white-space: nowrap;
+}

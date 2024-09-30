@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* flex-direction:set the direction of main axis*/
+/* justify -content :decides the placement of flex-items along main axis*/
+/* align items:property used to align items along cross axis*/
+/*align-content :property is used to align row items along cross axis ,it is applied if there is some extra some space along cross axis*/
+.container{
+    display: flex;
+    height: 100vh;
+     flex-direction: row; /*left to right*/
+   /* flex-direction: row-reverse;/* right to left*/
+    /*flex-direction: column;/*top to bottom*/
+   /* flex-direction: column-reverse;/*bottom to top */
+
+   justify-content: flex-start; /*it takes the items from start i.e left
+   justify-content: flex-end; it takes the items from end i.e right to left
+   justify-content: center; it takes the items to center
+   justify-content: space-around; it makes equal space around the items
+   justify-content: space-between; it makes space between the items*/ 
+   
+   align-items:stretch ; /*take the default height of the items*/
+   /*align-items: center;/*take the items to center of page*/
+   /*align-items: flex-end;/*take the items to end of page*/
+   /*align-items:center;/*take the items to center of the page*/
+  /* align-items:baseline;*//*take the items of nums to same line*/
+
+  flex-wrap: nowrap;
+  flex-wrap: wrap;/* wrap the items into next line*/
+
+  align-content: stretch;
+/* align-content: flex-start;it aligns contents along the cross axis at the top
+  align-content: center;/*it takes the contents along center of cross axis*/
+ /* align-content: flex-end;/*it takes the contents along the end of cross axis*/
+  /*align-content: space-around;/*it makes the space around the items row*/
+  /*align-content: space-between;/*it makes the space between the items*/
+}
+
+
+.item{
+    background-color: cadetblue;
+    padding: 10px;
+    color:aquamarine;
+    font-size: 22px;
+    font-weight:bold;
+    border:2px solid #000;
+    /* width: 100px; */
+    height: 100px;
+    flex-shrink: 0;
+    flex-grow: 1;/*it takes the flex width */
+}
+/*align -self:it takes individual flex items to cross axis of flex container*/
+.item2{
+    font-size: 60px;
+    align-self: center;/*it takes ind flex items to center w.r.t flex container on cross axis*/
+    
+}
+.item3{
+    font-size: 90px;
+    align-self: flex-end;/*it takes ind flex items to end w.r.t flex container on cross axis*/
+    order: -1;/*it takes the flex items to right of present items*/
+}
+.item4{
+    font-size: 40px;
+    align-self: flex-start;/*it takes ind flex items to start w.r.t flex container on cross axis*/
+}
+.item1{
+    font-size: 30px;
+    /* flex-basis: 400px;it is used to change the width of items in a row */
+    /* flex-shrink: 0;*/
+    flex-grow: 2;/*it takes the flex width*/
+} 
+.item5{
+    font-size: 30px;
+    
+    
+}
